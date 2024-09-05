@@ -1,0 +1,25 @@
+.App {
+  display:grid;
+  place-items:center;
+  height:100vh;
+  background:#642144;
+  overflow: hidden;
+}
+
+.app_body{
+  display:flex;
+
+  background-color: rgb(62, 5, 62);
+  /* margin-top: -20px; */
+  /* margin-top: 10px; */
+  height: 95vh;
+  width: 95vw;
+  /* box-shadow: -1px 4px 20px -6px rgba(0, 0, 0,0.75); */
+  box-shadow: 10px 5px 5px rgb(62, 5, 62);
+  border-style:hidden;
+  border-radius: 25px;
+  border-color: blueviolet;
+}
+
+
+
