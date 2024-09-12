@@ -1,0 +1,33 @@
+.login{
+    background:#642144;
+    background-image: url('https://i.pinimg.com/originals/38/a1/09/38a109c98aadef0d442f541ba39b80d3.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat;
+    height:100vh;
+    width:100vw;
+    display:grid;
+    place-items: center;
+}
+
+.login_container{
+    padding: 100px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: -1px 4px 20px -6px rgba(85, 3, 78, 0.75);
+} 
+
+.login_container >button{
+    margin-top: 50px;
+    text-transform: inherit !important;
+    background-color: #8f0f6a !important;
+    color: white;
+    border-radius: 10px;
+}
+
+.image1{
+    width: 100px;
+    height: 100px;
+    margin-left: 10%;
+}

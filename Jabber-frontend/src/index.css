@@ -1,0 +1,23 @@
+*{
+  margin:0;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles.css */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+}
+
+.login-background {
+  background-image: url('https://i.pinimg.com/originals/38/a1/09/38a109c98aadef0d442f541ba39b80d3.jpg');
+  background-size: contain;
+  background-repeat: repeat;
+}
+
