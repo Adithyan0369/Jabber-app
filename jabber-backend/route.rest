@@ -1,0 +1,75 @@
+POST http://localhost:8000/api/v1/jabber/chat
+Content-Type: application/json
+
+{
+    "roomName" : "GOAT",
+    "creatorName": "Lakshman Karthick",
+    "creatorEmail": "lachu@gmail.com",
+    "profileImage": "https://upload.wikimedia.org/wikipedia/en/1/1e/The_Greatest_of_All_Time.jpg",
+    "theme": "Discuss about GOAT Film"
+}
+
+###
+
+GET http://localhost:8000/api/v1/jabber/chat
+
+###
+
+PUT http://localhost:8000/api/v1/jabber/chat/64311966364fc44c1bcddae0
+Content-Type: application/json
+
+{
+    "roomName": "BGT 2023",
+    "creatorName": "Lakshman Karthick T",
+    "creatorEmail": "lachu@gmail.com",
+    "profileImage": "https://ss-i.thgim.com/public/incoming/innftq/article66484710.ece/alternates/FREE_1200/1464013415.jpg",
+    "theme": "Discuss about Border Gavaskar Trophy"
+}
+
+###
+
+GET http://localhost:8000/api/v1/jabber/chat/6432b2b02e0e7815beaa432b
+
+###
+
+DELETE http://localhost:8000/api/v1/jabber/chat/6430f5d059a785dee57622d2
+
+###
+
+POST http://localhost:8000/api/v1/jabber/chat/64334400acda24c95df83f88/messages
+Content-Type: application/json
+
+{
+    "message" : "Welcome to Border Gavaskar Trophy !! ",
+    "imgUrl": "https://images.thequint.com/thequint%2F2023-02%2Fb5bc9d91-6304-4228-83bb-ffdc8c1d81c4%2FIPL_T20_Schedule_Mumbai_Indians.jpg",
+    "userName": "Lakshman Karthick T",
+    "id": "64334400acda24c95df83f88",
+    "timestamp":null
+}
+
+###
+
+GET http://localhost:8000/api/v1/jabber/chat/6432b2b02e0e7815beaa432b/messages/66703cdde8beba7417f0afa7
+
+###
+
+GET http://localhost:8000/api/v1/jabber/chat/6432b2b02e0e7815beaa432b/messages
+###
+PUT http://localhost:8000/api/v1/jabber/chat/6432b2b02e0e7815beaa432b/messages/667054736ada66c8fcf678fe
+Content-Type: application/json
+
+{
+    "message" : "Hi, I am Good!! Be Calm Don't Worry!!",
+    "imgUrl": "https://images.thequint.com/thequint%2F2023-02%2Fb5bc9d91-6304-4228-83bb-ffdc8c1d81c4%2FIPL_T20_Schedule_Mumbai_Indians.jpg",
+    "userName": "Lakshman Karthick T",
+    "id": "64334400acda24c95df83f88",
+    "timestamp":null
+}
+
+###
+
+DELETE http://localhost:8000/api/v1/jabber/chat/6432b2b02e0e7815beaa432b/messages/66703af14554710fda842f1e
+
+###
+
+GET http://localhost:8000/api/v1/jabber/chat/6432b2b02e0e7815beaa432b/messages/6433b90a8ad08e48c09d0e03
